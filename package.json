@@ -5,13 +5,9 @@
   "main": "index.js",
   "scripts": {
 
-
-
-    "test": "echo \"No test specified\""
-  
-  
-  
-  },
+    "test": "testcafe chrome:headless,firefox:headless tests/index-test.js"
+    
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
