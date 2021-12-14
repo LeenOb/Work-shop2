@@ -10,7 +10,6 @@ script:
   - npm test
 
 cache:
-
   npm: false
 
 
