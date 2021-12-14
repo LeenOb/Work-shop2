@@ -10,6 +10,7 @@ let config = {
     bucket: 2000000,
     loss: "softmax",
 };
+
 let classifier = new fastText.Classifier();
 classifier.train("supervised", config).then((res) => {
     console.log(res);
