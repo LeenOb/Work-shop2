@@ -1,23 +1,6 @@
 
-language: node_js
+Language: node_js
 
-node_js: "stable"
+Node_js: 
 
-
-
-dist: bionic
-
-
-
-
-before_install:
-
-- stty cols 80
-
-
-
-addons:
-
-firefox: latest
-
-chrome: stable
+-10
